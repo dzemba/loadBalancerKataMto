@@ -6,6 +6,9 @@ public class ServerLoadBalancer {
 		if(vms.length > 0){
 			servers[0].addVm(vms[0]);
 		}
-	}
+		for(Vm vm : vms){
+			servers[0].addVm(vm);
 	
+		}
+	}
 }
