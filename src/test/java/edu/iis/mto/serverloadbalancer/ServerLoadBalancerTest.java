@@ -86,8 +86,8 @@ public class ServerLoadBalancerTest {
 			}
 		
 		
-			private Server[] aListOfServersWith(Server server) {
-				return new Server[]{server};
+			private Server[] aListOfServersWith(Server... server) {
+				return server;
 			}
 		
 		
